@@ -1,6 +1,6 @@
 import { BorderColor } from "@mui/icons-material";
 
-export const getThemePallete = (mode) => ({
+export const Theme2 = (mode) => ({
     palette: {
         mode,
         ...(mode === 'light'

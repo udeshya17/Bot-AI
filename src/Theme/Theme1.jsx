@@ -1,3 +1,3 @@
-import { createContext } from 'react'
+import { createContext } from 'react';
 
-export const Theme1 = createContext('light')
+export const Theme1 = createContext();
