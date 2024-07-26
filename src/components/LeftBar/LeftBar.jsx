@@ -3,7 +3,7 @@ import { Theme1 } from "../../Theme/Theme1"
 import { Typography, Box, Stack, Button, useMediaQuery } from '@mui/material'
 import icon from '../../assets/newchat.png'
 import { Link } from 'react-router-dom'
-import AddCommentIcon from '@mui/icons-material/AddComment';
+import Icon from '../../assets/edit.png'
 import CloseIcon from '@mui/icons-material/Close';
 
 export default function Sidebar({ setChat, closeMenu }) {
@@ -70,8 +70,7 @@ export default function Sidebar({ setChat, closeMenu }) {
                             New Chat
                         </Typography>
                     </Stack>
-
-                    <AddCommentIcon sx={{ color: 'text.primary' }} />
+                    <img src={Icon} ></img>
 
                 </Stack>
             </Link>
