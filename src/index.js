@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/Home/Home'
+import History from './pages/History/History'
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />
+      },
+      {
+        path: "/history",
+        element:<History/>
       }
     ]
   }
